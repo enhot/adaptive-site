@@ -1,0 +1,20 @@
+.location {
+  margin-top: clamp(2.5rem, -0.3571rem + 14.2857vw, 12.5rem);
+}
+.location__container {
+}
+
+.location__google {
+  margin-top: clamp(1.25rem, 0rem + 6.25vw, 5.625rem);
+}
+.google__map {
+  iframe {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .title__location {
+    text-align: center;
+  }
+}

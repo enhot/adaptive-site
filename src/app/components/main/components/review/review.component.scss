@@ -1,0 +1,116 @@
+.review {
+  margin-top: clamp(2.5rem, -0.3571rem + 14.2857vw, 12.5rem);
+}
+.review__block {
+  margin-top: clamp(1.875rem, 0.8036rem + 5.3571vw, 5.625rem);
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  gap: clamp(0.9375rem, 0.2946rem + 3.2143vw, 3.1875rem);
+  overflow: visible;
+}
+
+.review__profile {
+  // padding: 2.5em 0px 2.875em 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 366px;
+  width: 100%;
+  position: relative;
+  gap: clamp(0.9375rem, 0.6696rem + 1.3393vw, 1.875rem);
+  box-sizing: border-box;
+  border: 1px solid rgb(222, 222, 222);
+  box-shadow: 0px 2.77px 2.21px 0px rgba(0, 0, 0, 0.02),
+    0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03),
+    0px 12.52px 10.02px 0px rgba(0, 0, 0, 0.04),
+    0px 22.34px 17.87px 0px rgba(0, 0, 0, 0.04),
+    0px 41.78px 33.42px 0px rgba(0, 0, 0, 0.05),
+    0px 100px 80px 0px rgba(0, 0, 0, 0.07);
+  background: rgb(255, 255, 255);
+}
+.review__img {
+  text-align: center;
+  padding-top: clamp(0.625rem, 0.2321rem + 1.9643vw, 2rem);
+  img {
+  }
+}
+.prfile__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile__about {
+  text-align: center;
+  // padding: 0px 3.125em 0px 3.125em;
+  margin-bottom: clamp(0.625rem, 0.3571rem + 1.3393vw, 1.5625rem);
+  color: rgb(94, 98, 130);
+  font-weight: 500;
+  line-height: 187.5%;
+  letter-spacing: 0.2px;
+}
+.prfile__name {
+  color: rgb(35, 166, 240);
+  font-weight: 500;
+  line-height: 187.5%;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-bottom: clamp(0.3125rem, 0.1339rem + 0.8929vw, 0.9375rem);
+}
+.profile__from {
+  color: rgb(24, 30, 75);
+  font-weight: 500;
+  line-height: 187.5%;
+  letter-spacing: 0.2px;
+  text-align: center;
+  padding-bottom: clamp(0.625rem, 0.2321rem + 1.9643vw, 2rem);
+}
+
+swiper-container {
+  width: 100%;
+  overflow: visible;
+}
+swiper-slide {
+  overflow: visible;
+  height: 455px;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-container_one-slide {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .show-profile {
+    display: block;
+  }
+  .swiper-container {
+    display: none;
+  }
+}
+
+@media (max-width: 1023.9px) {
+  .show-profile {
+    display: none;
+  }
+  .swiper-container {
+    display: block;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .title__review {
+    text-align: center;
+  }
+  .swiper-container {
+    display: none;
+  }
+  .swiper-container_one-slide {
+    display: block;
+  }
+}

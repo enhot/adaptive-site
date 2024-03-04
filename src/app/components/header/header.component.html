@@ -1,0 +1,31 @@
+<header class="header">
+  <div class="header__container">
+    <a href="" class="header__logo">
+      <img src="../../../assets/img/header/Logo.svg" alt="logo" />
+    </a>
+    <nav class="header__nav">
+      @if(!isShow){
+      <ul class="header__list">
+        @for (item of headerNav; track $index) {
+        <li>{{ item }}</li>
+        }
+      </ul>
+      } @if (isShow) {
+      <div class="header__burger">
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+          <mat-icon>more_vert</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+          <ul class="header__burger-list">
+            @for (item of headerNav; track $index) {
+            <li>
+              <button mat-menu-item>{{ item }}</button>
+            </li>
+            }
+          </ul>
+        </mat-menu>
+      </div>
+      }
+    </nav>
+  </div>
+</header>

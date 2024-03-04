@@ -1,0 +1,112 @@
+.services {
+  margin-top: clamp(2.5rem, -0.3571rem + 14.2857vw, 12.5rem);
+}
+.services__container {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.25rem, 0rem + 6.25vw, 5.625rem);
+}
+
+.services__content {
+  gap: clamp(1.875rem, -0.0893rem + 9.8214vw, 8.75rem);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contant__block {
+  display: flex;
+  gap: clamp(0.625rem, -1.4286rem + 10.2679vw, 7.8125rem);
+}
+.content__img {
+  flex: 0 1 50%;
+  margin: 0 auto;
+  img {
+    max-width: 100%;
+    height: 100%;
+    display: block;
+  }
+}
+
+//нижний блок с картинками
+.contnent__info {
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.9375rem, 0.4554rem + 2.4107vw, 2.625rem);
+}
+//первый блок
+.info__title-one {
+  max-width: 380px;
+  font-size: clamp(1.375rem, 1.1964rem + 0.8929vw, 2rem);
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: 2%;
+  span {
+    color: rgb(68, 117, 242);
+  }
+}
+.info__block {
+  max-width: 416px;
+}
+.info__text {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.46875rem, 0.3348rem + 0.6696vw, 0.9375rem);
+  color: rgb(94, 98, 130);
+  font-weight: 500;
+  line-height: 187.5%;
+  letter-spacing: 2%;
+}
+.text-one {
+}
+.text-two {
+}
+
+//второй блок
+.contant__block-two {
+  flex-direction: row-reverse;
+  text-align: left;
+}
+.info__title-two {
+  font-size: clamp(1.375rem, 1.1964rem + 0.8929vw, 2rem);
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: 2%;
+  span {
+    color: rgb(68, 117, 242);
+  }
+}
+.text-two_second {
+  max-width: 360px;
+}
+
+@media (max-width: 767.9px) {
+  .title__services {
+    text-align: center;
+  }
+
+  .contant__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contnent__info {
+  }
+  .info__block {
+    max-width: 100%;
+  }
+  .info__text {
+    max-width: 100%;
+    p {
+      text-indent: 20px;
+      max-width: 100%;
+    }
+  }
+  .info__title {
+    text-align: center;
+    max-width: 100%;
+  }
+  .info__title br {
+    display: none;
+  }
+}

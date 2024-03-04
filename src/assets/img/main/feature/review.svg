@@ -1,0 +1,15 @@
+<svg width="102.000000" height="102.000000" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip60_506">
+			<rect id="Frame" width="45.000000" height="45.000000" transform="translate(29.000000 28.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Square" rx="26.000000" width="102.000000" height="102.000000" fill="#4475F2" fill-opacity="1.000000"/>
+	<rect id="Frame" width="45.000000" height="45.000000" transform="translate(29.000000 28.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip60_506)">
+		<path id="Vector" d="M66.0625 57.0626C64.7396 59.7096 62.7058 61.936 60.189 63.4924C57.6721 65.0489 54.7717 65.8739 51.8125 65.8751C49.3377 65.8815 46.8965 65.3033 44.6875 64.1876L34 67.7501L37.5625 57.0626C36.4467 54.8536 35.8685 52.4123 35.875 49.9376C35.8761 46.9783 36.7011 44.0779 38.2576 41.5611C39.814 39.0443 42.0405 37.0105 44.6875 35.6876C46.8965 34.5718 49.3377 33.9936 51.8125 34.0001L52.75 34.0001C56.6582 34.2156 60.3495 35.8652 63.1171 38.6329C65.8848 41.4006 67.5344 45.0919 67.75 49.0001L67.75 49.9376C67.7565 52.4123 67.1783 54.8536 66.0625 57.0626Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="5.000000" stroke-linejoin="round"/>
+	</g>
+</svg>

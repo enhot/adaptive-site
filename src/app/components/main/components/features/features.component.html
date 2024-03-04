@@ -1,0 +1,67 @@
+<section class="features">
+  <div class="features__container">
+    <div class="feature__block_title">
+      <label for="" class="features-label">FEATURES</label>
+      <h2 class="title__can-do">What You Can Do?</h2>
+    </div>
+    <div class="feature__block_icons">
+      <div class="icon__possibilities search">
+        <a href=""
+          ><img
+            src="assets/img/main/feature/search.svg"
+            class="img_search imgs-effect"
+            alt="search"
+        /></a>
+        <div class="possibility__list search">
+          <h3 class="possibility__item">Search book</h3>
+          <p
+            (click)="toggleText(1)"
+            [ngClass]="{ 'show-text': isTextExpanded[1] }"
+            class="possibility__text"
+          >
+            Effortlessly find your next read with our powerful and intuitive
+            book search.
+          </p>
+        </div>
+      </div>
+      <div class="icon__possibilities review">
+        <a href=""
+          ><img
+            class="img_review imgs-effect"
+            src="assets/img/main/feature/review.svg"
+            alt="review"
+        /></a>
+        <div class="possibility__list search">
+          <h3 class="possibility__item">Review book</h3>
+          <p
+            class="possibility__text"
+            (click)="toggleText(2)"
+            [ngClass]="{ 'show-text': isTextExpanded[2] }"
+          >
+            Discover insightful critiques and share your thoughts on diverse
+            literary masterpieces effortlessly.
+          </p>
+        </div>
+      </div>
+      <div class="icon__possibilities like">
+        <a href=""
+          ><img
+            class="img_like imgs-effect"
+            src="assets/img/main/feature/like.png"
+            alt="like"
+        /></a>
+        <div class="possibility__list search">
+          <h3 class="possibility__item">Wishlist book</h3>
+          <p
+            class="possibility__text"
+            (click)="toggleText(3)"
+            [ngClass]="{ 'show-text': isTextExpanded[3] }"
+          >
+            Curate your literary<br />
+            dreams–wishlist books for future adventures and discoveries.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

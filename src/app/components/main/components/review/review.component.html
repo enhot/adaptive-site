@@ -1,0 +1,87 @@
+<section class="review">
+  <div class="review__container">
+    <div class="review__block_title block_title">
+      <label for="" class="review-label label">SERVICES</label>
+      <h2 class="title__review title" title>The Services for You</h2>
+    </div>
+    <div class="review__block">
+      <swiper-container
+        class="show-profile"
+        pagination="true"
+        pagination-clickable="true"
+        space-between="30"
+        slides-per-view="3"
+      >
+        @for (item of objProfile; track objProfile ; let id = $index) {
+
+        <swiper-slide>
+          <div class="review__profile">
+            <div class="review__img">
+              <img [src]="item.photo" alt="" />
+            </div>
+
+            <div class="prfile__info">
+              <p class="profile__about">{{ item.about }}</p>
+              <p class="prfile__name">{{ item.name }}</p>
+              <p class="profile__from">{{ item.category }}</p>
+            </div>
+          </div>
+        </swiper-slide>
+
+        }
+      </swiper-container>
+      <!--С двумя слайдами-->
+      <swiper-container
+        class="swiper-container"
+        pagination="true"
+        pagination-clickable="true"
+        space-between="30"
+        slides-per-view="2"
+      >
+        @for (item of objProfile; track objProfile ; let id = $index) {
+
+        <swiper-slide>
+          <div class="review__profile">
+            <div class="review__img">
+              <img [src]="item.photo" alt="" />
+            </div>
+
+            <div class="prfile__info">
+              <p class="profile__about">{{ item.about }}</p>
+              <p class="prfile__name">{{ item.name }}</p>
+              <p class="profile__from">{{ item.category }}</p>
+            </div>
+          </div>
+        </swiper-slide>
+
+        }
+      </swiper-container>
+      <!-- С одним слайдом-->
+      <swiper-container
+        class="swiper-container_one-slide"
+        pagination="true"
+        pagination-clickable="true"
+        space-between="30"
+        slides-per-view="1"
+      >
+        @for (item of objProfile; track objProfile ; let id = $index) {
+
+        <swiper-slide>
+          <div class="review__profile">
+            <div class="review__img">
+              <img [src]="item.photo" alt="" />
+            </div>
+
+            <div class="prfile__info">
+              <p class="profile__about">{{ item.about }}</p>
+              <p class="prfile__name">{{ item.name }}</p>
+              <p class="profile__from">{{ item.category }}</p>
+            </div>
+          </div>
+        </swiper-slide>
+
+        }
+      </swiper-container>
+    </div>
+  </div>
+</section>

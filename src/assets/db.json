@@ -1,0 +1,30 @@
+{
+  "locations": [
+    {
+      "id": 0,
+      "name": "Ahmad Saugi",
+      "city": "Chicago",
+      "photo": "../assets/img/main/profile/first.jpeg",
+      "about": "Engaging plot, vivid characters; a captivating read that lingers in your thoughts.",
+      "category": "College Student"
+    },
+    {
+      "id": 1,
+      "name": "Muhammad Alfian",
+      "city": "Santa Monica",
+      "state": "CA",
+      "photo": "../assets/img/main/profile/second.jpeg",
+      "about": "Thought-provoking narrative and rich prose. A must-read for any avid book lover!",
+      "category": "School Student"
+    },
+    {
+      "id": 2,
+      "name": "Wahyu Amirulloh",
+      "city": "Juneau",
+      "state": "AK",
+      "photo": "../assets/img/main/profile/third.jpeg",
+      "about": "Immersive storytelling! An enriching literary experience worth savoring and sharing.",
+      "category": "ERP Developer"
+    }
+  ]
+}
